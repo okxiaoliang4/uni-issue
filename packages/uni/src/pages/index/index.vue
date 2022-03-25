@@ -1,6 +1,7 @@
 <template>
     <view class="content">
         <v-header></v-header>
+        <pa-icon></pa-icon>
         <image class="logo" src="/static/logo.png" />
         <view class="text-area">
             <text class="title">{{ title }}</text>
@@ -22,12 +23,12 @@ const title = ref('Hello')
 }
 
 .logo {
-    height: 200rpx;
-    width: 200rpx;
-    margin-top: 200rpx;
+    height: 200px;
+    width: 200px;
+    margin-top: 200px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 50rpx;
+    margin-bottom: 50px;
 }
 
 .text-area {
@@ -36,7 +37,7 @@ const title = ref('Hello')
 }
 
 .title {
-    font-size: 36rpx;
+    font-size: 36px;
     color: #8f8f94;
 }
 </style>
